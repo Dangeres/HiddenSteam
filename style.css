@@ -1,0 +1,11 @@
+.accs{
+	display: block;
+    position: fixed;
+    float: right;
+    margin-left: 22%;
+    margin-top: 5%;
+    color: white;
+}
+.anaccount{
+	display:block;
+}

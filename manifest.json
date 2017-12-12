@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "Hidden Steam.",
+    "description": "Hide login to site steam.",
+    "version": "1.0",
+	
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+ 
+  "content_scripts": [
+    {
+      "matches": ["*://steamcommunity.com/*","*://store.steampowered.com/*"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "options_page": "design/body.html"
+}
